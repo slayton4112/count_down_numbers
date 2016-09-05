@@ -41,4 +41,10 @@ def countdown(N,T):
 
 
 if __name__ == '__main__':
-  print countdown([100,25,2,8,1,4], 271)
+  #lst = [50, 75, 5, 6, 3, 2]
+  lst = list(map(int, raw_input("Chosen Numbers: ").split(",")))
+  print lst
+  #t = 878
+  t = int(raw_input("Target Number: "))
+  print t
+  print countdown(lst,t)
